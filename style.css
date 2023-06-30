@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,black,#421564,rgb(94, 7, 80),black);
+    font-family: 'Poppins', sans-serif;
+}
+main{
+   background-color: white;  
+   padding: 2rem;
+   border-radius: 0.5rem;
+   box-shadow: -6px 5px 20px 6px rgb(11, 11, 11);
+}
+.tittle-container{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+label{
+    font-weight: bold;
+
+}
+.amount-container{
+    margin-bottom: 1.3rem;
+
+}
+.amount-container>input[type="number"]{
+    width: 100%;
+    border: 0.5px solid black;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    outline: 0;
+}
+.unit-container{
+    display: flex;
+    justify-content:space-between ;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+
+}
+.select-container>select{
+    border: 1px solid black;
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+}
+
+.middle>img{
+    margin-top: 20%;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.formular-display{
+    margin-bottom: 1.4rem;
+}
+
+.formular-display>.title{
+   background-color: #5a2653;
+   color: white;
+   font-size: 0.8rem;
+   padding: 5px;
+   border-radius: 5px;
+
+}
+
+.formular-display > .content{
+    font-size: 0.8rem;
+}
+
+.result-container{
+    margin-bottom: 1.5rem;
+}
+
+.result-container>input[type="text"]{
+    border: 1px solid black;
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    outline: 0;
+}
+
+

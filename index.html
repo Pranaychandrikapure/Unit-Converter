@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit Converter</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <main>
+            <div class="title-container">
+            <h2>Length Converter</h2>
+        </div>
+        <div class="amount-container">
+            <label for="amount">Enter Amount</label>
+            <input type="number" name="amount" value="" id="amount">
+            
+        </div>
+        <div class="unit-container">
+            <div class="left">
+                <p>From</p>
+                <div class="select-container">
+                    <select name="from" id="from">
+                        <option value="centimeter">centimeter</option>
+                    </select>
+                </div>
+            </div>
+            <div class="middle">
+                <img src="./loading.gif" alt="loading" srcset="" style="width: 52px;">
+            </div>
+            <div class="right">
+                <p>To</p>
+                <div class="select-container">
+                    <select name="to" id="to">
+                        <option value="centimeter">centimeter</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="formular-display">
+            <span class="title">Formular</span>
+            <span class="content">Here the formulas to convert.</span>
+        </div>
+        
+        <div class="result-container">
+            <label for="result">Result</label>
+            <input type="text" name="result" id="result">
+        </div>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
